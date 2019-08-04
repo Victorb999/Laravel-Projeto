@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.filtro{
+    margin:10px;
+}
+#tabelao{
+    padding: 10px;
+}
+#paginar{    
+    height: calc(1.6em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius:0.25rem;
+}
+.animacor{
+    background: $anima;
+    color: $white;    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:$white;
+}
+.card-header {    
+    color:$roxao;
+    font-size: 16px;
+    font-weight: bold;
+}
